@@ -5,7 +5,6 @@ MAINTAINER Jochen Lillich <jochen@freistil.it>
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
   apt-get -y install \
-    php-apc \
     php5-cli \
     php5-curl \
     php5-gd \
